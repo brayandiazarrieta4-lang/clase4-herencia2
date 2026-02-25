@@ -5,7 +5,7 @@ import java.util.ArrayList;
 public class Main {
     public static void main(String[] args) {
         // 1. Instanciación Segura
-        CamionDEREparto camion = new CamionDEREparto("CAM-001", 50, 2000, true);
+        CamionDeReparto camion = new CamionDeReparto("CAM-001", 50, 2000, true);
         BuqueCarga buque = new BuqueCarga("BUQ-99", 500, 50000, 50);
 
         // 2. Prueba de Fuego (Validación)
